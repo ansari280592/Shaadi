@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ahmad Osama Ansari - Marriage Profile</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #2c5f4f;
+}
+.section {
+    margin-top: 20px;
+}
+.label {
+    font-weight: bold;
+    color: #2c5f4f;
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Marriage Profile</h1>
+
+<div class="section">
+<p><span class="label">Name:</span> Ahmad Osama Ansari</p>
+<p><span class="label">Date of Birth:</span> 9 June 1999</p>
+<p><span class="label">City:</span> Houston, Texas</p>
+<p><span class="label">Education:</span> Master’s in Industrial Engineering</p>
+<p><span class="label">Profession:</span> Recently graduated</p>
+</div>
+
+<div class="section">
+<p class="label">About Me:</p>
+<p>
+I’m a fun-loving and adventurous person who values faith, family, and personal growth. 
+I try to keep Islam at the center of my life and believe in continuous learning—both in 
+worldly knowledge and deen. I enjoy meaningful conversations, exploring new places, 
+and maintaining a balanced lifestyle while staying grounded in religious values.
+</p>
+</div>
+
+<div class="section">
+<p class="label">Partner Preference:</p>
+<p>
+Career-oriented, hijabi, and deendar partner who values faith, mutual respect, 
+and companionship, and is interested in learning and growing in Qur’an together.
+</p>
+</div>
+
+<div class="footer">
+<p>For family inquiries, contact will be shared upon request.</p>
+</div>
+
+</div>
+
+</body>
+</html>
