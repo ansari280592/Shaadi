@@ -1,37 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ahmad Osama Ansari - Marriage Profile</title>
+
 <style>
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7f5;
     margin: 0;
-    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #e8f0ec, #f9fbfa);
 }
+
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: 40px auto;
+    padding: 20px;
+}
+
+.profile-card {
     background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-}
-h1 {
     text-align: center;
-    color: #2c5f4f;
 }
+
+h1 {
+    margin-bottom: 5px;
+    color: #1f4d3a;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 20px;
+}
+
 .section {
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 25px;
 }
-.label {
-    font-weight: bold;
-    color: #2c5f4f;
+
+.section h2 {
+    font-size: 18px;
+    color: #1f4d3a;
+    border-bottom: 2px solid #e6eee9;
+    padding-bottom: 5px;
 }
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.info-grid div {
+    background: #f7faf8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
 .footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 14px;
     color: gray;
 }
@@ -41,38 +73,45 @@ h1 {
 <body>
 
 <div class="container">
-<h1>Marriage Profile</h1>
+  <div class="profile-card">
 
-<div class="section">
-<p><span class="label">Name:</span> Ahmad Osama Ansari</p>
-<p><span class="label">Date of Birth:</span> 9 June 1999</p>
-<p><span class="label">City:</span> Houston, Texas</p>
-<p><span class="label">Education:</span> Master’s in Industrial Engineering</p>
-<p><span class="label">Profession:</span> Recently graduated</p>
-</div>
+    <h1>Ahmad Osama Ansari</h1>
+    <p class="subtitle">Marriage Profile</p>
 
-<div class="section">
-<p class="label">About Me:</p>
-<p>
-I’m a fun-loving and adventurous person who values faith, family, and personal growth. 
-I try to keep Islam at the center of my life and believe in continuous learning—both in 
-worldly knowledge and deen. I enjoy meaningful conversations, exploring new places, 
-and maintaining a balanced lifestyle while staying grounded in religious values.
-</p>
-</div>
+    <div class="section">
+      <h2>Basic Information</h2>
+      <div class="info-grid">
+        <div><strong>Date of Birth:</strong><br>9 June 1999</div>
+        <div><strong>City:</strong><br>Houston, Texas</div>
+        <div><strong>Education:</strong><br>Master’s in Industrial Engineering</div>
+        <div><strong>Profession:</strong><br>Recently Graduated</div>
+      </div>
+    </div>
 
-<div class="section">
-<p class="label">Partner Preference:</p>
-<p>
-Career-oriented, hijabi, and deendar partner who values faith, mutual respect, 
-and companionship, and is interested in learning and growing in Qur’an together.
-</p>
-</div>
+    <div class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m a fun-loving and adventurous person who values faith, family, and personal growth. 
+        I strive to keep Islam at the center of my life and believe in continuously improving 
+        both in deen and dunya. I enjoy meaningful conversations, exploring new places, and 
+        maintaining a balanced lifestyle while staying grounded in religious values.
+      </p>
+    </div>
 
-<div class="footer">
-<p>For family inquiries, contact will be shared upon request.</p>
-</div>
+    <div class="section">
+      <h2>Partner Preference</h2>
+      <p>
+        Looking for a career-oriented, hijabi, and deendar partner who values faith, mutual 
+        respect, and companionship. Someone who believes in growing together—especially in 
+        learning and understanding the Qur’an.
+      </p>
+    </div>
 
+    <div class="footer">
+      Contact details will be shared with serious family inquiries.
+    </div>
+
+  </div>
 </div>
 
 </body>
